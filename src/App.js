@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
+import Carrusel from './components/Carrusel';
 
 function App() {
   const styles = {
@@ -10,7 +12,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Carrusel/>
       <h1 className={styles.header}>Bienvenidos a la cocina de la Nona</h1>
+      <ItemListContainer/>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
