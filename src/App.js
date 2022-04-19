@@ -14,7 +14,8 @@ function App() {
       <NavBar/>
       <Carrusel/>
       <h1 className={styles.header}>Bienvenidos a la cocina de la Nona</h1>
-      <ItemListContainer/>
+      <ItemListContainer titulo="Nuestras dulzuras"/>
+      <ItemListContainer titulo="Nuestra seccion salada"/>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
