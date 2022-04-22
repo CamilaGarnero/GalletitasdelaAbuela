@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import Carrusel from './components/Carrusel';
+import CardNew from './components/CardNew';
+import Saludo from './components/Saludo';
 
 function App() {
   const styles = {
@@ -16,6 +18,7 @@ function App() {
       <h1 className={styles.header}>Bienvenidos a la cocina de la Nona</h1>
       <ItemListContainer titulo="Nuestras dulzuras"/>
       <ItemListContainer titulo="Nuestra seccion salada"/>
+      <CardNew otroComponente={Saludo}></CardNew>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
