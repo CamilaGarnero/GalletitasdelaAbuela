@@ -5,6 +5,7 @@ import ItemListContainer from './components/ItemListContainer';
 import Carrusel from './components/Carrusel';
 import CardNew from './components/CardNew';
 import Saludo from './components/Saludo';
+import Contador from './components/Contador';
 
 function App() {
   const styles = {
@@ -19,6 +20,7 @@ function App() {
       <ItemListContainer titulo="Nuestras dulzuras"/>
       <ItemListContainer titulo="Nuestra seccion salada"/>
       <CardNew otroComponente={Saludo}></CardNew>
+      <Contador></Contador>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -32,7 +34,7 @@ function App() {
         >
           Learn React
         </a>
-  </header>*/ }
+  </header>*/}
     </div>
   );
 }
