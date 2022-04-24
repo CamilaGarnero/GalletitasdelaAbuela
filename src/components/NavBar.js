@@ -5,7 +5,7 @@ const NavBar = () => {
     const styles = {
         logo:"btn btn-ghost normal-case text-xl text-black hover:text-amber-400",
         item:"text-black hover:border-amber-300 hover:bg-emerald-600",
-        subtienda:"p-2 bg-emerald-600"
+        subtienda:"p-2"
     }
 
     return (

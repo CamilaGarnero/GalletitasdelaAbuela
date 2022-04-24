@@ -5,9 +5,6 @@ const Carrusel = () => {
     return (
         <div class="carousel carousel-center rounded-box">
             <div class="carousel-item">
-                <img src="https://api.lorem.space/image/pizza?w=400&h=300&hash=8B7BCDC2" alt="Pizza" />
-            </div> 
-            <div class="carousel-item">
                 <img src={rocklets} alt="Galletitas con rocklets" width='500px'/>
             </div> 
             <div class="carousel-item">
