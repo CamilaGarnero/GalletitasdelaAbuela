@@ -19,6 +19,7 @@ const productos = [
         "description": "Las galletitas con un sabor nuevo e innovador nuestro sabor a Red Velvet",
         "price": 200,00
 
+
     },
     {
         "id": 4,
